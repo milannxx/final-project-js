@@ -109,7 +109,7 @@ header {
 }
 .header_right--button::before {
   content: "";
-  background-image: url("../img/sun.svg");
+  background-image: url("./img/sun.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 50%;
@@ -127,7 +127,7 @@ header {
   background-color: #7E7E7E;
 }
 .header_right--button.active::before {
-  background-image: url("../img/moon.svg");
+  background-image: url("./img/moon.svg");
   left: 20px;
 }
 .header_right--text {
@@ -182,7 +182,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(../img/backround-modal.svg);
+  background-image: url(./img/backround-modal.svg);
   background-size: cover;
   background-repeat: no-repeat;
   transition: 0.3s ease-in-out;
@@ -302,7 +302,7 @@ header {
 }
 
 main {
-  background-image: url(../img/backround-main.svg);
+  background-image: url(./img/backround-main.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--grey);
@@ -1657,7 +1657,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url(../img/modal-footer.svg);
+  background-image: url(./img/modal-footer.svg);
   background-size: cover;
   background-repeat: no-repeat;
   transition: 0.3s ease-in-out;
